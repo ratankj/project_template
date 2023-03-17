@@ -8,6 +8,7 @@ CURRENT_TIME_STEMP= f"{datetime.now().strftime('%Y-%m-%d %H-%M-%S')}"
 
 log_file_name= f"log{CURRENT_TIME_STEMP}.log"
 
+#making directory
 os.makedirs(LOG_DIR, exist_ok=True)
 
 log_file_path= os.path.join(LOG_DIR,log_file_name)
